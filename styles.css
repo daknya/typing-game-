@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1E0555;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+body,
+.quote-input {
+    font-family: 'Gill sans', sans-serif;
+}
+
+.quote-input {
+    opacity: 0;
+}
+
+.correct {
+    color: greenyellow;
+
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
